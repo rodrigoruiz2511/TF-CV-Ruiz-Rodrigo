@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Curriculum Vitae</title>
+    <script
+      src="https://kit.fontawesome.com/2945a9c848.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <!-- Header contenedor de del titulo y la imagen  personal -->
+      <header>
+        <div id="perfil">
+          <img src="Foto perfil.jpg" alt="Foto de Perfil" />
+        </div>
+        <div id="textPerfil">
+          <h1>
+            Curriculum Vitae <br />
+            Marc Boyd
+          </h1>
+        </div>
+      </header>
+      <!-- Botonera de navegación a las distintas partes de   del curriculum vitae-->
+      <nav>
+        <div class="btn">
+          <div>
+            <label class="btn-icon" id="btn-descrip"
+              ><i class="fa-solid fa-pen-to-square"></i
+            ></label>
+          </div>
+
+          <div>
+            <label class="btn-text" id="btn-text-descrip">Descripción</label>
+          </div>
+        </div>
+        <div class="btn">
+          <div>
+            <label class="btn-icon" id="btn-datos"
+              ><i class="fa-solid fa-user"></i
+            ></label>
+          </div>
+          <div>
+            <label class="btn-text" id="btn-text-datos">Datos Personales</label>
+          </div>
+        </div>
+        <div class="btn">
+          <div>
+            <label class="btn-icon" id="btn-titulos"
+              ><i class="fa-solid fa-certificate"></i
+            ></label>
+          </div>
+          <div>
+            <label class="btn-text" id="btn-text-titulos">Certificados</label>
+          </div>
+        </div>
+        <div class="btn">
+          <div>
+            <label class="btn-icon" id="btn-trabajos">
+              <i class="fa-solid fa-briefcase"></i
+            ></label>
+          </div>
+          <div>
+            <label class="btn-text" id="btn-text-trabajos"
+              >Historial Laboral</label
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- Distintos cuatdros que representan una sección  del Curriculum Vitae -->
+      <main>
+        <div class="cuadro" id="descripción">
+          <h3>Descripción</h3>
+          <p data-aos="fade-right" data-aos-offset="700">
+            Soy una persona organizada y que se motiva a si mismo, capaz de
+            adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en
+            cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en
+            equipo y fomentar valores como los del compañerismo.
+          </p>
+        </div>
+        <div class="cuadro" id="datPerson">
+          <h3>Datos Personales</h3>
+          <p data-aos="fade-right" data-aos-offset="700">
+            <strong>Fecha de nacimiento: </strong> 03/06/1994.
+          </p>
+          <p data-aos="fade-left" data-aos-offset="800">
+            <strong>Dirección: </strong> 2525 Shady Ln Dr.
+          </p>
+          <p data-aos="fade-right" data-aos-offset="900">
+            <strong>E-mail: </strong> marc.boyd@example.com.
+          </p>
+          <p data-aos="fade-left" data-aos-offset="1000">
+            <strong>Teléfono: </strong> (877) 624-8150.
+          </p>
+        </div>
+        <div class="cuadro" id="titulos">
+          <h3>Formación academica</h3>
+          <p data-aos="fade-right" data-aos-offset="700">
+            <strong>Ingenieria en Sistema </strong> <br />
+            <sub> Universi | 2016 - actualidad</sub>
+          </p>
+          <p data-aos="fade-left" data-aos-offset="800">
+            <strong>Introducción a la Programación </strong> <br />
+            <sub> Insti Program | 2018</sub>
+          </p>
+        </div>
+        <div class="cuadro" id="trabajos">
+          <h3>Resumen de Empleo</h3>
+          <p data-aos="fade-right" data-aos-offset="700">
+            <strong>Mc Daniel </strong> <br />
+            <sub> Cajero | 2016 - actualidad</sub> <br />
+            Responsabilidades: Cobro, balance, Inventario.
+          </p>
+          <p data-aos="fade-left" data-aos-offset="800">
+            <label><strong>Supermercado Liberty </strong></label> <br />
+            <sub> Operario | 2010 - 2016</sub> <br />
+            Responsabilidades: Cobro, balance, Inventario, reposición de
+            gondola.
+          </p>
+        </div>
+      </main>
+      <footer>
+        <div id="derecho">
+          <p>Andres Ruiz © 2023. Reservados todos los derechos</p>
+        </div>
+        <div id="acceso"><i class="fa-brands fa-github"></i></div>
+      </footer>
+    </div>
+
+    <div id="app">
+      <script src="main.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </div>
+  </body>
+</html>
